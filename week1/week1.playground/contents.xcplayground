@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Part1GitAndGitHub'/>
+        <page name='Part2Basic'/>
+        <page name='Part3Collection'/>
+        <page name='Part4ControlFlow'/>
+        <page name='Part5Function'/>
+    </pages>
 </playground>
