@@ -11,9 +11,7 @@
 
 struct Person: PoliceMan {
     var name: String
-    var toolMan: ToolMan {
-        // to do
-    }
+    var toolMan: ToolMan
     
     func arrestCriminals () {
         // to do
@@ -21,15 +19,11 @@ struct Person: PoliceMan {
 }
 
 protocol PoliceMan {
-    func arrestCriminals () {
-        //to do
-    }
+    func arrestCriminals ()
 }
 
 protocol ToolMan {
-    func fixComputer() {
-        // to do
-    }
+    func fixComputer()
 }
 
 struct Engineer: ToolMan {
@@ -38,4 +32,5 @@ struct Engineer: ToolMan {
     }
 }
 
-let Steven = Person(name: "Steven")
+let Steven = Person(name: "Steven", toolMan: Engineer())
+
